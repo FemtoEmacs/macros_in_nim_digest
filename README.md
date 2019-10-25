@@ -26,7 +26,7 @@ medical schools in California. The `grad.data`
 file gives the number of graduates from each
 school. The `rd.nim` program prints the addition
 and the average. Here is how to compile and run
-the program of listing :numref:`processfile` --
+the program of listing :ref:`processfile` --
 
 ```
 src> nim c -o:rd.x -d:release rd.nim  # Compile 
