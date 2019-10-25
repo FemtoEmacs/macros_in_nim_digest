@@ -1,0 +1,23 @@
+{"compile":[
+["/Users/ed/nim/nimacros/src/lixo/stdlib_formatfloat.nim.c", "clang -c  -w -O3  -I/usr/local/lib/nim -I/Users/ed/nim/nimacros/src -o /Users/ed/nim/nimacros/src/lixo/stdlib_formatfloat.nim.c.o /Users/ed/nim/nimacros/src/lixo/stdlib_formatfloat.nim.c"],
+["/Users/ed/nim/nimacros/src/lixo/stdlib_io.nim.c", "clang -c  -w -O3  -I/usr/local/lib/nim -I/Users/ed/nim/nimacros/src -o /Users/ed/nim/nimacros/src/lixo/stdlib_io.nim.c.o /Users/ed/nim/nimacros/src/lixo/stdlib_io.nim.c"],
+["/Users/ed/nim/nimacros/src/lixo/stdlib_system.nim.c", "clang -c  -w -O3  -I/usr/local/lib/nim -I/Users/ed/nim/nimacros/src -o /Users/ed/nim/nimacros/src/lixo/stdlib_system.nim.c.o /Users/ed/nim/nimacros/src/lixo/stdlib_system.nim.c"],
+["/Users/ed/nim/nimacros/src/lixo/stdlib_parseutils.nim.c", "clang -c  -w -O3  -I/usr/local/lib/nim -I/Users/ed/nim/nimacros/src -o /Users/ed/nim/nimacros/src/lixo/stdlib_parseutils.nim.c.o /Users/ed/nim/nimacros/src/lixo/stdlib_parseutils.nim.c"],
+["/Users/ed/nim/nimacros/src/lixo/stdlib_strutils.nim.c", "clang -c  -w -O3  -I/usr/local/lib/nim -I/Users/ed/nim/nimacros/src -o /Users/ed/nim/nimacros/src/lixo/stdlib_strutils.nim.c.o /Users/ed/nim/nimacros/src/lixo/stdlib_strutils.nim.c"],
+["/Users/ed/nim/nimacros/src/lixo/stdlib_posix.nim.c", "clang -c  -w -O3  -I/usr/local/lib/nim -I/Users/ed/nim/nimacros/src -o /Users/ed/nim/nimacros/src/lixo/stdlib_posix.nim.c.o /Users/ed/nim/nimacros/src/lixo/stdlib_posix.nim.c"],
+["/Users/ed/nim/nimacros/src/lixo/stdlib_times.nim.c", "clang -c  -w -O3  -I/usr/local/lib/nim -I/Users/ed/nim/nimacros/src -o /Users/ed/nim/nimacros/src/lixo/stdlib_times.nim.c.o /Users/ed/nim/nimacros/src/lixo/stdlib_times.nim.c"],
+["/Users/ed/nim/nimacros/src/lixo/stdlib_os.nim.c", "clang -c  -w -O3  -I/usr/local/lib/nim -I/Users/ed/nim/nimacros/src -o /Users/ed/nim/nimacros/src/lixo/stdlib_os.nim.c.o /Users/ed/nim/nimacros/src/lixo/stdlib_os.nim.c"],
+["/Users/ed/nim/nimacros/src/lixo/@mrdwrt.nim.c", "clang -c  -w -O3  -I/usr/local/lib/nim -I/Users/ed/nim/nimacros/src -o /Users/ed/nim/nimacros/src/lixo/@mrdwrt.nim.c.o /Users/ed/nim/nimacros/src/lixo/@mrdwrt.nim.c"]],
+"link":[
+"/Users/ed/nim/nimacros/src/lixo/stdlib_formatfloat.nim.c.o",
+"/Users/ed/nim/nimacros/src/lixo/stdlib_io.nim.c.o",
+"/Users/ed/nim/nimacros/src/lixo/stdlib_system.nim.c.o",
+"/Users/ed/nim/nimacros/src/lixo/stdlib_parseutils.nim.c.o",
+"/Users/ed/nim/nimacros/src/lixo/stdlib_strutils.nim.c.o",
+"/Users/ed/nim/nimacros/src/lixo/stdlib_posix.nim.c.o",
+"/Users/ed/nim/nimacros/src/lixo/stdlib_times.nim.c.o",
+"/Users/ed/nim/nimacros/src/lixo/stdlib_os.nim.c.o",
+"/Users/ed/nim/nimacros/src/lixo/@mrdwrt.nim.c.o"
+],
+"linkcmd": "clang   -o /Users/ed/nim/nimacros/src/rdwrt.x  /Users/ed/nim/nimacros/src/lixo/stdlib_formatfloat.nim.c.o /Users/ed/nim/nimacros/src/lixo/stdlib_io.nim.c.o /Users/ed/nim/nimacros/src/lixo/stdlib_system.nim.c.o /Users/ed/nim/nimacros/src/lixo/stdlib_parseutils.nim.c.o /Users/ed/nim/nimacros/src/lixo/stdlib_strutils.nim.c.o /Users/ed/nim/nimacros/src/lixo/stdlib_posix.nim.c.o /Users/ed/nim/nimacros/src/lixo/stdlib_times.nim.c.o /Users/ed/nim/nimacros/src/lixo/stdlib_os.nim.c.o /Users/ed/nim/nimacros/src/lixo/@mrdwrt.nim.c.o  -lm   -ldl"
+}
