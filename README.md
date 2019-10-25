@@ -18,15 +18,15 @@ proc main() =
 
 main()
 ```
-
-(@readfile) Read and process a file
+  _processfile
+  figure:: Read and process a file
 
 Let us find out how many students graduate from
 medical schools in California. The `grad.data`
 file gives the number of graduates from each
 school. The `rd.nim` program prints the addition
 and the average. Here is how to compile and run
-the program of listing @readfile:
+the program of listing :numref:`processfile` --
 
 ```
 src> nim c -o:rd.x -d:release rd.nim  # Compile 
@@ -38,7 +38,6 @@ src> ./rd.x nums.data                 # Run the program
 Sum= 1127.0 / Average= 80.5
 ```
 
-\pagebreak
 The predicate `paramCount() < 1` checks whether the file name is
 present on the command line. If it is not, the program quits with
 a request for the file name. In the snippet below, taken from the
@@ -223,7 +222,7 @@ Let us compile and test it:
 138.75
 ```
 
-\pagebreak
+
 I defined the `avg` procedure inside the `main` procedure,
 just to demonstrate that this is possible. The procedure `strip`
 eliminates blanks around the string, before parsing it to floating
@@ -268,7 +267,7 @@ while stk != nil:
 ```
 (@rpn) Implementation of an rpn calculator
 
-\pagebreak
+
 Before trying to understand the program of listing @rpn,
 let us see how to use it. The program is an emulator of
 the famous hp calculators.
@@ -579,7 +578,7 @@ CC: stdlib_system.nim
 3- Give me some bear, Please.
 ```
 
-\pagebreak
+
 Let us describe the macro of Listing @AST-tinkering.
 It starts by creating a `nnkForStmt` and stores it
 in the `for_loop` variable. The next step is to add
@@ -1353,7 +1352,7 @@ Who is this guy that calls himself God?
 Apparently, he is a king that rules the Earth from his
 throne somewhere near the star Kolob. 
 
-\pagebreak
+
 ```Nim
 # make APP=units
 import os, strutils
