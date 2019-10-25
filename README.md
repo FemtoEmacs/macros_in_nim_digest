@@ -1,4 +1,4 @@
-# The Nim language
+# Macros in Nim - Tutorial
 
 ```Nim
 # nim c -d:release --nimcache:lixo -o:rd.x rd.nim
